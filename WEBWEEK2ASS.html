@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Demo Page</title>
+</head>
+<body>
+
+  <h1>HTML5 Concepts Demo</h1>
+
+  <!-- Lists -->
+  <h2>My Favorite Fruits</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Mango</li>
+  </ul>
+
+  <!-- Table -->
+  <h2>Weekly Schedule</h2>
+  <table border="1">
+    <tr>
+      <th>Day</th>
+      <th>Activity</th>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Gym</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Study</td>
+    </tr>
+  </table>
+
+  <!-- Media -->
+  <h2>Sample Media</h2>
+  <img src="https://via.placeholder.com/200" alt="Sample image">
+  <br>
+  <audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+  </audio>
+  <br>
+  <video controls width="250">
+    <source src="sample.mp4" type="video/mp4">
+    Your browser does not support video.
+  </video>
+
+  <!-- Form -->
+  <h2>Registration Form</h2>
+  <form>
+    <label>Name: 
+      <input type="text" name="name" required minlength="3">
+    </label><br><br>
+
+    <label>Email: 
+      <input type="email" name="email" required>
+    </label><br><br>
+
+    <label>Password: 
+      <input type="password" name="password" required minlength="6">
+    </label><br><br>
+
+    <label>Age: 
+      <input type="number" name="age" min="18" max="99" required>
+    </label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
